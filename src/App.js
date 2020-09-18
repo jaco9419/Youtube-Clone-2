@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, sizing } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { SearchBar, VideoDetail, VideoList } from "./components";
 import youtube from "./api/youtube";
 import logo from "./img/youtube-logo.svg";
