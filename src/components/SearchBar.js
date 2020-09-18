@@ -20,7 +20,7 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <Paper elevetion={6} style={{ padding: "25px" }} className="search-bar">
+      <Paper elevetion={6} className="search-bar">
         <form onSubmit={this.handleSubmit}>
           <TextField
             label="Search..."

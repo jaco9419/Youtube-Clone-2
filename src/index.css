@@ -9,6 +9,10 @@ body {
     padding: 2rem 4rem;
 }
 
+@media (max-width: 1280px) {
+    
+}
+
 .logo {
     width: 6rem;
     margin-bottom: 2rem;
@@ -19,15 +23,72 @@ body {
     text-align: left;
 }
 
+.search-bar {
+    padding: 25px;
+}
+
 .search-bar form {
     width: 100%;
 }
 
+.video-detail-container {
+    min-height: 100vh;
+}
+
+.video {
+    height: 30%;
+}
+
 .video-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
     transition: .3s;
 }
 
 .video-item:hover {
     box-shadow: 10px 10px 24px -14px rgba(0,0,0,0.75);
     opacity: 0.9;
+}
+
+
+.video-item-description {
+    padding: 1rem;
+}
+
+
+
+@media (max-width: 1280px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .video {
+        height: 70%;
+    }
+}
+
+@media (max-width: 960px) {
+    body {
+        padding: 0rem;
+    }
+
+    .search-bar {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    .video {
+        height: 60%;
+    }
+    .video-item {
+        flex-direction: column;
+    }
+    .thumbnail {
+        width: 100%;
+    }
+    .video-item-description {
+        padding: 1rem;
+    }
 }
