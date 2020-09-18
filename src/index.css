@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem 4rem;
+}
+
+.logo {
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+}
+
+.search-bar form {
+    width: 100%;
+}
+
+.video-item {
+    transition: .3s;
+}
+
+.video-item:hover {
+    box-shadow: 10px 10px 24px -14px rgba(0,0,0,0.75);
+    opacity: 0.9;
+}
