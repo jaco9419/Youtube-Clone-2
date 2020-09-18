@@ -14,8 +14,8 @@ const VideoItem = ({ video, onVideoSelect }) => {
           alt="thumbnail"
           src={video.snippet.thumbnails.medium.url}
         />
-        <Typography variant="subtitle1" className="video-item-description">
-          <b>{video.snippet.title}</b>
+        <Typography className="video-item-description">
+          <b className="video-item-description">{video.snippet.title}</b>
         </Typography>
       </Paper>
     </Grid>
