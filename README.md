@@ -1,3 +1,5 @@
+It is a Youtube simple and smaller clone using Youtube's API, React, Axios and Material UI. You can check out the hosted site on: [Netlify](https://youtubeclone-byjorge.netlify.app/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
